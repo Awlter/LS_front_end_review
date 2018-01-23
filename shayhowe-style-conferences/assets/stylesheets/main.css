@@ -320,6 +320,17 @@ p a {
   text-align: right;
 }
 
+.nav li {
+  display: inline-block;
+  margin-right: .5em;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+
 /*
   inerpager
 */
@@ -331,4 +342,22 @@ p a {
 .lead p {
   font-size: 21px;
   line-height: 33px;
+}
+
+/*
+  ========================================
+  Speaker Info
+  ========================================
+*/
+
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.speaker {
+  margin-bottom: 44px;
 }
