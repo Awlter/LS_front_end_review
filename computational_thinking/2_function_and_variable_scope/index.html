@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Basics</title>
+</head>
+<body>
+  <script type="text/javascript">
+    // No.1 
+    // function total(nums) {
+    //   return nums.reduce(function(sum, value) {
+    //     return sum + value
+    //   }, 0)
+    // }
+
+    // function average(nums) {
+    //   return total(nums) / nums.length
+    // }
+
+    // console.log(average([3, 5, 8]))
+    console.log(foo());
+
+function foo() {
+  console.log('Waiting for bar!');
+}
+
+function foo() {
+  console.log(foo);
+  function bar() {
+    console.log('bar again');
+  }
+
+  bar();
+
+  function bar() {
+    console.log('bar again and again');
+  }
+}
+  </script>
+</body>
+</html>
